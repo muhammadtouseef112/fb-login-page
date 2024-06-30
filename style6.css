@@ -1,0 +1,127 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+nav {
+  width: 100%;
+  height: 10%;
+  padding: 0px 100px;
+  line-height: 75px;
+  position: fixed;
+  background-color: #5e5ee2;
+  color: white;
+}
+nav .logo p {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.navbar {
+  display: inline-block;
+  float: right;
+}
+aside h2 {
+  color: black;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+aside p {
+  color: black;
+  position: absolute;
+  top: 35%;
+  left: 25%;
+}
+aside #p2 {
+  color: black;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+}
+aside #p3 {
+  color: black;
+  position: absolute;
+  top: 45%;
+  left: 25%;
+}
+section h2 {
+  color: black;
+  position: absolute;
+  top: 15%;
+  right: 35%;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+section p {
+  color: black;
+  position: absolute;
+  top: 20%;
+  right: 28.5%;
+}
+aside p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+section .Name {
+  position: absolute;
+  top: 25%;
+  right: 15%;
+}
+section .remaining #number {
+  position: absolute;
+  top: 30%;
+  right: 28%;
+}
+section .remaining #re-enter {
+  position: absolute;
+  top: 35%;
+  right: 28%;
+}
+section .remaining #password {
+  position: absolute;
+  top: 40%;
+  right: 28%;
+}
+section .remaining #birth {
+  position: absolute;
+  top: 45%;
+  right: 34.5%;
+  color: black;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+section .remaining #dob {
+  position: absolute;
+  top: 50%;
+  right: 32%;
+}
+section .remaining #why {
+  position: absolute;
+  top: 49%;
+  right: 23%;
+  font-size: 13px;
+  color: #5e5ee2;
+}
+section .gender {
+  position: absolute;
+  top: 55%;
+  right: 32%;
+}
+section button {
+  position: absolute;
+  top: 65%;
+  right: 32%;
+  height: 4%;
+  width: 7%;
+  background-color: rgb(50, 194, 50);
+  color: white;
+
+  border-radius: 5px;
+}
